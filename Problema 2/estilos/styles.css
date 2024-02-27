@@ -1,0 +1,175 @@
+:root {
+    --aqua: #08b088;
+    --soft_black: #222222;
+    --gray: #464646;
+}
+
+nav .navbar {
+    background-color: var(--aqua);
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+main {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+main h2 {
+    padding-top: 30px;
+    color: var(--aqua);
+}
+
+.navbar div {
+    text-align: center;
+    color: white;
+    padding: 4px;
+}
+
+.navbar div p{
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.logo img {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.navbar .inicio {
+    width: 150px;
+    margin-left: auto;
+    /*border-bottom: 4px solid white ; Opcional */
+}
+
+.navbar .banca {
+    width: 200px;
+}
+
+.navbar .servicios {
+    width: 150px;
+}
+
+.navbar .contacto {
+    width: 150px;
+    margin-right: 70px;
+}
+
+/*Contenido*/
+
+.contenido {
+    display: flex;
+    /*background-color: rebeccapurple;*/
+    height: 250px;
+}
+
+.contenido img {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenido p {
+    padding: 15px;
+    font-size: 20px;
+    color: var(--soft_black);
+    
+}
+
+.contenido2 button {
+    height: 40px;
+    width: 100px;
+    background-color: var(--aqua);
+    color: white;
+
+    border: none;
+    margin-left: 15px;
+}
+
+
+.informacion {
+    display: flex;
+}
+
+.informacion div {
+    height: 200px;
+    width: 100%;
+}
+
+.informacion h3 {
+    font-weight: bold;
+    color: var(--aqua);
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.informacion .cuadro_medio {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.footercontent {
+    margin-top: 40px;
+    background-color: #1c1c1c;
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+
+.footercontent img {
+    position: absolute;
+    padding: 50px;
+}
+
+.footercontent .policy {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 65px;
+    color: var(--aqua);
+    width: 300px;
+    text-align: justify;
+}
+
+.footercontent .more_info{
+    display: flex;
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.footercontent .more_info div {
+    width: 300px;
+    padding: 50px;
+    color: var(--aqua);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.form {
+    height: 460px;
+    width: 300px;
+    background-color: #2222220a;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.form p{
+    font-size: 15px;
+    color: var(--aqua);
+    margin-bottom: 10px;
+}
+
+.form input {
+    background-color:#46464610 ;
+    width: 250px;
+    height: 25px;
+    border-color: #08b088;
+}
+
+

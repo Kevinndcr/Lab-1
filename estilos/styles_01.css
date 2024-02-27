@@ -1,0 +1,452 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.main {
+    width: 70%;
+    height: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    display: block;
+    background-color: transparent;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.navbar .logo {
+    background-color: #F05A49;
+    width: 300px;
+}
+
+/*Agregar font face*/
+.navbar .logo h2 {
+    margin-left: 70px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.navbar .logo p  {
+    margin-left: 70px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.navbar .opciones {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .opciones div{
+    width: 100px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    align-items: center;
+}
+
+
+.opciones .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #1e8bc3;
+}
+.opciones .home img {
+    margin-top: 18px;
+    max-width: 100%; 
+    height: 60%;
+}
+
+/*Agregar font face*/
+.opciones .home p {
+    color: #1e8bc3;
+}
+
+/* About */
+.opciones .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #F86924;
+}
+.opciones .about img {
+    margin-top: 18px;
+    max-width: 100%; 
+    height: 60%;
+}
+
+/*Agregar font face*/
+.opciones .about p {
+    color: #F86924;
+}
+
+/* Blog */
+.opciones .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #FF9F00;
+}
+.opciones .blog img {
+    margin-top: 18px;
+    max-width: 100%; 
+    height: 60%;
+}
+
+/*Agregar font face*/
+.opciones .blog p {
+    color: #FF9F00;
+}
+
+
+/* Projects */
+.opciones .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #35BC7A;
+}
+.opciones .projects img {
+    margin-top: 18px;
+    max-width: 100%; 
+    height: 60%;
+}
+
+/*Agregar font face*/
+.opciones .projects p {
+    color: #35BC7A;
+}
+
+/*Contacts*/
+
+.opciones .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #F05A49;
+}
+.opciones .contacts img {
+    margin-top: 18px;
+    max-width: 100%; 
+    height: 60%;
+}
+
+/*Agregar font face*/
+.opciones .contacts p {
+    color: #F05A49;
+}
+
+.main .banner {
+    width: 100%;
+    height: 300px;
+}
+
+.espaciador {
+    height: 10px;
+}
+
+.espaciador2 {
+    height: 10px;
+}
+
+.cuadritos {
+    display: flex;
+    margin-left: auto;  
+    margin-right: auto;  
+    height: 270px
+}
+
+.main .cuadritos div {
+    margin-left: 20px;
+    width: 270px;
+
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+
+.main .cuadritos .cuadro1 {
+    background-color: #35BC7A;
+}
+
+.main .cuadritos .cuadro1 h2 {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro1 img {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+
+.main .cuadritos .cuadro2 {
+    background-color: #F86924;
+}
+
+.main .cuadritos .cuadro2 h2 {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro2 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro2 img {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+
+.main .cuadritos .cuadro3 {
+    background-color: #FF9F00;
+}
+
+.main .cuadritos .cuadro3 h2 {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro3 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.main .cuadritos .cuadro3 img {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+
+.footercontent {
+    background-color: #000000;
+    color: white;
+    font-size: 13px;
+    line-height: 2.50rem;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .navbar {
+        display: block;
+        width: 100%;
+        height: 400px;
+        background-color: transparent;
+    }
+
+    .navbar .opciones {
+        display: block;
+        width: 300px;
+        height: 500px;
+        /*background-color: red;*/
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main img { 
+        height: 10px;
+        width: 0px;
+    }
+
+
+    .navbar .logo {
+        width: 100%;
+    }
+
+    .navbar .logo p {
+        margin: 0px;
+    }
+
+    .navbar .opciones {
+        width: 100%;
+    }
+
+    .navbar .opciones div {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .opciones .home p {
+        width: 100%;
+        float: left;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .opciones .about p {
+        width: 100%;
+        float: left;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .opciones .blog p {
+        width: 100%;
+        float: left;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .opciones .projects p {
+        width: 100%;
+        float: left;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .opciones .contacts p {
+        width: 100%;
+        float: left;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .espaciador {
+        height: 150px;
+    }
+
+    .espaciado2r {
+        height: 10px;
+    }
+
+    .cuadritos {
+        display: block;
+    }
+
+    .main .cuadritos div {
+        width: 100%;
+        height: 200px;
+    }
+
+    /*Acomodando texto en los cuadros*/
+    .main .cuadritos .cuadro1 {
+        padding-top: 20px;
+        
+    }    
+
+    .main .cuadritos .cuadro1 h2 {
+        margin: 0px;
+        margin-left: 20px;
+        height: 40px;
+        margin-top: 0px;
+        padding: 0px
+    }
+
+    .main .cuadritos .cuadro1 p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    /*Next one*/
+    .main .cuadritos .cuadro2 {
+        padding-top: 20px;
+        margin-top: 20px;
+        
+    }    
+
+    .main .cuadritos .cuadro2 h2 {
+        margin: 0px;
+        margin-left: 20px;
+        height: 40px;
+        margin-top: 0px;
+        padding: 0px
+    }
+
+    .main .cuadritos .cuadro2 p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    /*next one*/
+
+    .main .cuadritos .cuadro3 {
+        padding-top: 20px;
+        margin-top: 20px;
+        
+    }    
+
+    .main .cuadritos .cuadro3 h2 {
+        margin: 0px;
+        margin-left: 20px;
+        height: 40px;
+        margin-top: 0px;
+        padding: 0px
+    }
+
+    .main .cuadritos .cuadro3 p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .footercontent {
+        background-color: #000000;
+        color: white;
+        font-size: 13px;
+        line-height: 2.50rem;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 820px;
+        width: 100%;
+    }
+        
+    .navbar .logo h2 {
+        margin-left: 30px;
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .navbar .logo p {
+        margin-left: 30px;
+        height: 30px;
+        font-size: 18px;
+        color: white;
+    }
+
+}
